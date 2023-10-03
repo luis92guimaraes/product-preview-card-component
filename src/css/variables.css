@@ -1,0 +1,6 @@
+:root {
+    --bg-color: hsl(30, 38%, 92%);
+    --button-color: hsl(158, 36%, 37%);
+    --text-color: hsl(228, 12%, 48%);
+    --button-hover-color: hsl(212, 21%, 14%);
+}

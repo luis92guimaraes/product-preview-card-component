@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+body {
+    background-color: var(--bg-color);
+    font-family: 'fraunces', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cartao {
+    border: 1px solid red;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 480px;
+    height: 360px;
+}
+
+.imagem img {
+    width: 240px;
+    height: 360px;
+    border-radius: 10px 0 0 10px;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.perfume {
+    font-size: 12px;
+    color: var(--text-color);
+    padding: 50px 20px 30px 0;
+}
+
+.nome {
+    font-size: 24px;
+    padding: 0 30px;
+}
+
+
+.perfume .texto {
+    font-family: 'montserrat', sans-serif;
+    font-size: 12px;
+    color: var(--text-color);
+}
