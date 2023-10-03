@@ -64,7 +64,7 @@ main {
     width: 220px;
 }   
 
-.preco {
+.infos .preco {
     display: flex;
     align-items: center;
     color: var(--btn-price-color);
@@ -74,12 +74,12 @@ main {
 
 .preco .desconto {
     font-size: 25px;
-    padding-right: 18px;
+    padding-right: 30px;
 }
 
 .preco .sem-desconto {
     font-weight: 500;
-    font-size: 12px;
+    font-size: 14px;
     text-decoration: line-through;
 }
 
