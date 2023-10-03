@@ -2,8 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
 
 body {
-    background-color: var(--bg-color);
-    font-family: 'fraunces', sans-serif;
+    max-width: 1440px;
+    background-color: var(--body-bg-color);
+    font-family: 'fraunces', serif;
 }
 
 main {
@@ -11,44 +12,103 @@ main {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    min-width: 600px;
+    margin: 0 auto;
 }
 
 .cartao {
-    border: 1px solid red;
-    background-color: white;
+    background-color: var(--card-bg-color);
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    width: 480px;
+    width: 600px;
+    height: 360px;
+}
+
+.imagem {
+    width: 600px;
     height: 360px;
 }
 
 .imagem img {
-    width: 240px;
-    height: 360px;
+    width: 300px;
+    max-height: 360px;
     border-radius: 10px 0 0 10px;
 }
 
 .infos {
+    width: 300px;
+    height: 360px;
+    padding-right: 30px;
+}
+
+.infos .titulo {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    padding-top: 20px;
+}
+
+.infos h1{
+    font-size: 30px;
+    padding-top: 8px;
+    width: 220px;
+}
+
+.infos .texto {
+    font-size: 13px;
+    font-weight: 500;
+    padding-top: 5px;
+    line-height: 20px;
+    width: 220px;
+}   
+
+.preco {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    color: var(--btn-price-color);
+    padding-top: 10px;
+
 }
-.perfume {
+
+.preco .desconto {
+    font-size: 25px;
+    padding-right: 18px;
+}
+
+.preco .sem-desconto {
+    font-weight: 500;
     font-size: 12px;
-    color: var(--text-color);
-    padding: 50px 20px 30px 0;
+    text-decoration: line-through;
 }
 
-.nome {
-    font-size: 24px;
-    padding: 0 30px;
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    border: none;
+    background-color: var(--btn-price-color);
+    color: var(--card-bg-color);
+    width: 210px;
+    padding: 12px 50px;
+    margin-top: 12px;
+    font-weight: bolder
 }
 
+.botao img {
+    padding-right: 8px;
+}
 
-.perfume .texto {
+.botao:hover {
+    background-color: var(--button-hover-color);
+    cursor: pointer;
+}
+
+.infos .titulo, 
+.infos .texto,
+.preco .sem-desconto {
     font-family: 'montserrat', sans-serif;
-    font-size: 12px;
     color: var(--text-color);
 }
