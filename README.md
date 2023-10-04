@@ -1,7 +1,7 @@
 # Frontend Mentor Challenge - Product Preview Card Component
 
 
-#### Este foi um desafio do site Frontend Mentor, projeto foi elaborado com as ferramentas HTML e CSS.
+#### Cartão de visualização responsivo e elementos interativos utilizando hover
 
 ## Índice
 
