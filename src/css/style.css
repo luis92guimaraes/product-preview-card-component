@@ -23,7 +23,7 @@ main {
     align-items: center;
     border-radius: 10px;
     width: 600px;
-    height: 360px;
+    height: 450px;
     overflow: hidden;
     gap: 30px;
 }
@@ -38,7 +38,8 @@ main {
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
+    padding: 30px 50px 30px 0;
 }
 
 .infos .titulo {
@@ -50,7 +51,6 @@ main {
 .infos h1{
     font-size: 30px;
     padding-top: 8px;
-    width: 220px;
 }
 
 .infos .texto {
@@ -58,7 +58,6 @@ main {
     font-weight: 500;
     padding-top: 5px;
     line-height: 20px;
-    width: 220px;
 }   
 
 .infos .preco {

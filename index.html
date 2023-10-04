@@ -15,9 +15,10 @@
 <body>
     <main>
         <div class="cartao">
-            <div class="imagem">
-                <img src="src/images/image-product-desktop.jpg" alt="img">
-            </div>
+            <picture class="imagem">
+                <source srcset="./src/images/image-product-mobile.jpg" media="(max-width:600px)"/>
+                <img src="./src/images/image-product-desktop.jpg" alt="img">
+            </picture>
 
             <div class="infos">
                 <p class="titulo">PERFUME</p>

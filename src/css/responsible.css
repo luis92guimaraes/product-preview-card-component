@@ -5,7 +5,7 @@
     }
 
     .cartao {
-        width: 100%;
+        width: 300px;
         height: 600px;
         border-radius: 10px;
         flex-direction: column;
@@ -16,53 +16,14 @@
         width: 100%;
         height: 300px;
         overflow: hidden;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: url("../images/image-product-mobile.jpg") no-repeat center center;
-        background-size: cover;
     }
 
-    .imagem img {
-        display: none;
-    }
 
     .infos {
-        width: 90%;
-        height: 280px;
-    }
-
-    .infos .titulo {
-        
-    }
-
-    .infos h1 {
-        font-size: 20px;
-        width: 150px;
-    }
-
-    .infos .texto {
-        font-size: 10px;
-        font-weight: 500;
-        line-height: 16px;
-        width: 160px;
-    }
-
-
-    .preco .desconto {
-        font-size: 20px;
-    }
-
-    .preco .sem-desconto {
-        font-size: 12px;
-        padding-right: 10px;
+        padding: 0 20px;
     }
 
     .botao {
-        width: 160px;
-        border-radius: 4px;
-        padding: 10px;
-        margin-top: 10px;
+        width: 100%;
     }
-
 }
