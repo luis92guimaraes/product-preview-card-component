@@ -40,7 +40,7 @@
 
 ### O que aprendi
 
-Esse foi o meu primeiro projeto e primeiro contato real com a programação. Aprendi conceitos muito importantes de cada uma das ferramentas que utilizei no projeto como por exemplo utilizar o Hover e o uso correto do Flex pasra posicionar de forma correta os cards na página. Fez com que eu realmente entrasse de cabeça na área da tecnologia e me incentivou a buscar aprender cada vez mais e me tornar um ótimo Dev.
+Esse projeto foi desafiador por parecer simples, as vezes pensamos que não serão usado tantos componentes dentro de um projeto que visualmente parece pequeno. Depois que começamos a realizar do zero vemos a quantidade de componentes necessários para fazer tudo funcionar. Me sinto cada vez mais confiante e feliz em estar conseguindo realizar estes desafios diariamente e evoluindo nos meus estudos. Assim seguimos!
 
 ## Trechos de códigos
 
@@ -76,7 +76,7 @@ main {
 
 ### Desenvolvimento contínuo
 
-Pretendo continuar aprendendo cada vez mais sobre as ferramentas utilizadas nesse projeto, ainda tem muita coisa pra ser absorvida mas sigo confiante e feliz em estar conseguindo realizar projetos como esse com mais clareza a cada dia.
+Pretendo continuar aprendendo cada vez mais sobre as ferramentas utilizadas nesse projeto, ainda tem muita coisa pra ser absorvida mas sigo confiante e feliz em estar conseguindo realizar projetos como esse com mais clareza e confiança a cada dia de estudos.
 
 ### Recursos úteis
 
