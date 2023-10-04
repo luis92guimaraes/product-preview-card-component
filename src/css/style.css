@@ -90,9 +90,12 @@ main {
     width: 210px;
     padding: 12px 50px;
     margin-top: 12px;
-    font-weight: bolder
+    font-weight: bolder;
 }
 
+a {
+    text-decoration: none;
+}
 .botao img {
     padding-right: 8px;
 }
